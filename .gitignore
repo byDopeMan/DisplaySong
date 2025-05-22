@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# VSCode settings
+.vscode/
+
+# Spotify cache directory
+.spotify_cache/
+
+# Virtual environment
+env/
+venv/
+ENV/
+.venv/
+.env
+
+# Distribution / packaging
+build/
+dist/
+dev/
+*.egg-info/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Added files to ignore
+build.bat
+background.txt
+custom.txt
+TODO

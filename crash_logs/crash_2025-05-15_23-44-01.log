@@ -1,0 +1,11 @@
+Uncaught exception:
+Traceback (most recent call last):
+  File "d:\CurrentSong[BrowserSource]\spotify_display\run.py", line 102, in <module>
+    setup_tray()
+  File "d:\CurrentSong[BrowserSource]\spotify_display\app\trays.py", line 46, in setup_tray
+    icon.icon = Image.open(icon_path)
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bydop\AppData\Local\Programs\Python\Python312\Lib\site-packages\PIL\Image.py", line 3505, in open
+    fp = builtins.open(filename, "rb")
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'd:\\CurrentSong[BrowserSource]\\spotify_display\\_internal/app.ico'
